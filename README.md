@@ -35,6 +35,13 @@ Example request:
 }
 `"
 "
+## Live API
+
+https://svkm-ai-voice-agent.onrender.com
+
+## API Documentation
+
+https://svkm-ai-voice-agent.onrender.com/docs
 
 
 Phone / ElevenLabs Agent
