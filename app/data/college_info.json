@@ -1,0 +1,584 @@
+{
+  "metadata": {
+    "knowledge_base_name": "SVKM NMIMS Global University Dhule",
+    "version": "1.0.0",
+    "last_reviewed": "2026-09-21",
+    "primary_source": "https://www.svkmnmimsgu.ac.in/",
+    "current_admission_year": "2026-27",
+    "purpose": "Knowledge base for the College AI Calling Agent",
+    "important_rule": "Academic-year-specific intake must always be reported together with its academic year.",
+    "verification_rule": "Do not invent or infer missing information. If information is not verified, the agent must say that it does not have confirmed information."
+  },
+
+  "institution": {
+    "name": "SVKM NMIMS Global University",
+    "short_name": "SVKM NMIMS Global University, Dhule",
+    "type": "State-Private University",
+    "city": "Dhule",
+    "state": "Maharashtra",
+    "country": "India",
+    "official_website": "https://www.svkmnmimsgu.ac.in/",
+    "campus_size": "Approximately 33 acres",
+    "address": "Survey No. 499, Plot No. 1, Behind Gurudwara, Near Mumbai-Agra Highway, Dhule - 424001, Maharashtra, India"
+  },
+
+  "schools": [
+    {
+      "name": "School of Commerce",
+      "status": "Active",
+      "started_from": "A.Y. 2024-25"
+    },
+    {
+      "name": "School of Technology, Management & Engineering",
+      "status": "Active",
+      "started_from": "A.Y. 2025-26"
+    },
+    {
+      "name": "School of Pharmacy & Technology Management",
+      "status": "Active",
+      "started_from": "A.Y. 2025-26"
+    }
+  ],
+
+  "programs": {
+
+    "school_of_commerce": [
+      {
+        "name": "Bachelor of Business Administration",
+        "short_name": "BBA",
+        "level": "Undergraduate",
+        "duration": "3 years",
+        "pattern": "Semester",
+        "current_intake": {
+          "academic_year": "2026-27",
+          "seats": 60
+        },
+        "eligibility_summary": "10+2 or equivalent from a recognized board with minimum 50% aggregate. Mathematics is not compulsory.",
+        "selection_tests": [
+          "MAH-CET (BBA/BCA/BMS)",
+          "NPAT",
+          "PERA TEST"
+        ]
+      },
+      {
+        "name": "Bachelor in Computer Applications",
+        "short_name": "BCA",
+        "level": "Undergraduate",
+        "duration": "3 years",
+        "pattern": "Semester",
+        "current_intake": {
+          "academic_year": "2026-27",
+          "seats": 60
+        },
+        "eligibility_summary": "10+2 or equivalent from a recognized board with minimum 50% aggregate. Mathematics is not compulsory.",
+        "selection_tests": [
+          "MAH-CET (BBA/BCA/BMS)",
+          "NPAT",
+          "PERA TEST"
+        ]
+      }
+    ],
+
+    "school_of_technology_management_engineering": [
+      {
+        "name": "Civil Engineering",
+        "short_name": "Civil",
+        "level": "B.Tech",
+        "duration": "4 years",
+        "current_intake": {
+          "academic_year": "2026-27",
+          "seats": 60
+        },
+        "started": "2017"
+      },
+      {
+        "name": "Computer Engineering",
+        "short_name": "Computer Engineering",
+        "level": "B.Tech",
+        "duration": "4 years",
+        "started": "2017",
+        "current_intake": {
+          "academic_year": "2026-27",
+          "seats": 180
+        },
+        "intake_history": [
+          {
+            "period": "Initial",
+            "seats": 60
+          },
+          {
+            "academic_year": "2023-24",
+            "seats": 120
+          },
+          {
+            "academic_year": "2024-25 onward",
+            "seats": 180
+          }
+        ]
+      },
+      {
+        "name": "Computer Science & Engineering - Artificial Intelligence & Machine Learning",
+        "short_name": "CSE AI & ML",
+        "level": "B.Tech",
+        "duration": "4 years",
+        "current_intake": {
+          "academic_year": "2026-27",
+          "seats": 60,
+          "verification_note": "The project currently uses 60 based on the university information provided for this project. An official 2026-27 admission page currently displays 120 in one table, while another official university document displays 60. Verify against the latest applicable admission notification before using as an official admission answer."
+        }
+      },
+      {
+        "name": "Computer Science & Engineering - Data Science",
+        "short_name": "CSE Data Science",
+        "level": "B.Tech",
+        "duration": "4 years",
+        "current_intake": {
+          "academic_year": "2026-27",
+          "seats": 120
+        }
+      },
+      {
+        "name": "Electrical Engineering",
+        "short_name": "Electrical",
+        "level": "B.Tech",
+        "duration": "4 years",
+        "current_intake": {
+          "academic_year": "2026-27",
+          "seats": 60
+        }
+      },
+      {
+        "name": "Information Technology",
+        "short_name": "IT",
+        "level": "B.Tech",
+        "duration": "4 years",
+        "started": "2017",
+        "current_intake": {
+          "academic_year": "2026-27",
+          "seats": 60
+        },
+        "department_information": "The Department of Information Technology was established in 2017 and offers a four-year Bachelor of Technology program with an intake capacity of 60 seats."
+      },
+      {
+        "name": "Mechanical Engineering",
+        "short_name": "Mechanical",
+        "level": "B.Tech",
+        "duration": "4 years",
+        "started": "2017",
+        "current_intake": {
+          "academic_year": "2026-27",
+          "seats": 60
+        }
+      },
+
+      {
+        "name": "B.Tech + MBA - Computer Engineering",
+        "short_name": "B.Tech + MBA Computer Engineering",
+        "level": "Integrated",
+        "duration": "5 years",
+        "current_intake": {
+          "academic_year": "2026-27",
+          "seats": 60
+        }
+      },
+      {
+        "name": "B.Tech + MBA - Artificial Intelligence & Machine Learning",
+        "short_name": "B.Tech + MBA AI & ML",
+        "level": "Integrated",
+        "duration": "5 years",
+        "current_intake": {
+          "academic_year": "2026-27",
+          "seats": "TO_BE_VERIFIED"
+        }
+      },
+      {
+        "name": "B.Tech + MBA - Data Science",
+        "short_name": "B.Tech + MBA Data Science",
+        "level": "Integrated",
+        "duration": "5 years",
+        "current_intake": {
+          "academic_year": "2026-27",
+          "seats": "TO_BE_VERIFIED"
+        }
+      },
+      {
+        "name": "B.Tech + MBA - Information Technology",
+        "short_name": "B.Tech + MBA IT",
+        "level": "Integrated",
+        "duration": "5 years",
+        "current_intake": {
+          "academic_year": "2026-27",
+          "seats": "TO_BE_VERIFIED"
+        }
+      },
+
+      {
+        "name": "Master of Computer Applications",
+        "short_name": "MCA",
+        "level": "Postgraduate",
+        "duration": "2 years",
+        "current_intake": {
+          "academic_year": "2026-27",
+          "seats": 120
+        }
+      },
+      {
+        "name": "M.Tech - Civil Engineering",
+        "short_name": "M.Tech Civil",
+        "level": "Postgraduate",
+        "duration": "2 years",
+        "current_intake": {
+          "academic_year": "2026-27",
+          "seats": 12
+        }
+      },
+      {
+        "name": "M.Tech - Computer Engineering",
+        "short_name": "M.Tech Computer Engineering",
+        "level": "Postgraduate",
+        "duration": "2 years",
+        "current_intake": {
+          "academic_year": "2026-27",
+          "seats": "TO_BE_VERIFIED"
+        }
+      },
+      {
+        "name": "M.Tech - Electrical Engineering",
+        "short_name": "M.Tech Electrical",
+        "level": "Postgraduate",
+        "duration": "2 years",
+        "current_intake": {
+          "academic_year": "2026-27",
+          "seats": "TO_BE_VERIFIED"
+        }
+      },
+      {
+        "name": "M.Tech - Information Technology",
+        "short_name": "M.Tech IT",
+        "level": "Postgraduate",
+        "duration": "2 years",
+        "current_intake": {
+          "academic_year": "2026-27",
+          "seats": "TO_BE_VERIFIED"
+        }
+      },
+      {
+        "name": "M.Tech - Mechanical Engineering",
+        "short_name": "M.Tech Mechanical",
+        "level": "Postgraduate",
+        "duration": "2 years",
+        "current_intake": {
+          "academic_year": "2026-27",
+          "seats": "TO_BE_VERIFIED"
+        }
+      }
+    ],
+
+    "school_of_pharmacy_technology_management": [
+      {
+        "name": "Diploma in Pharmacy",
+        "short_name": "D.Pharm",
+        "level": "Diploma",
+        "duration": "2 years",
+        "started": "2019",
+        "program_page_intake": 60,
+        "current_intake": {
+          "academic_year": "2026-27",
+          "seats": 60
+        }
+      },
+      {
+        "name": "Bachelor of Pharmacy",
+        "short_name": "B.Pharm",
+        "level": "Undergraduate",
+        "duration": "4 years",
+        "started": "2017",
+        "program_page_intake": 100,
+        "current_intake": {
+          "academic_year": "2026-27",
+          "seats": 60,
+          "note": "The current 2026-27 admission handout lists 60, while the program page lists 100. Use the academic-year-specific admission handout for current admission intake."
+        }
+      },
+      {
+        "name": "Bachelor of Pharmacy + MBA (Pharma Tech)",
+        "short_name": "B.Pharm + MBA",
+        "level": "Integrated",
+        "duration": "5 years",
+        "started": "2025",
+        "program_page_intake": 100,
+        "current_intake": {
+          "academic_year": "2026-27",
+          "seats": 40,
+          "note": "The current 2026-27 admission handout lists 40, while the program page/brochure lists 100. Use the academic-year-specific admission handout for current admission intake."
+        }
+      },
+      {
+        "name": "B.Tech - Cosmetic Technology",
+        "short_name": "B.Tech Cosmetic Technology",
+        "level": "Undergraduate",
+        "duration": "4 years",
+        "started": "2025",
+        "current_intake": {
+          "academic_year": "2026-27",
+          "seats": 60
+        }
+      },
+      {
+        "name": "M.Pharm - Pharmaceutics",
+        "short_name": "M.Pharm Pharmaceutics",
+        "level": "Postgraduate",
+        "duration": "2 years",
+        "started": "2022",
+        "current_intake": {
+          "academic_year": "2026-27",
+          "seats": 15
+        }
+      },
+      {
+        "name": "M.Pharm - Pharmaceutical Quality Assurance",
+        "short_name": "M.Pharm Pharmaceutical Quality Assurance",
+        "level": "Postgraduate",
+        "duration": "2 years",
+        "current_intake": {
+          "academic_year": "2026-27",
+          "seats": 15
+        }
+      },
+      {
+        "name": "M.Pharm - Pharmacology",
+        "short_name": "M.Pharm Pharmacology",
+        "level": "Postgraduate",
+        "duration": "2 years",
+        "current_intake": {
+          "academic_year": "2026-27",
+          "seats": 9
+        }
+      },
+      {
+        "name": "M.Pharm - Pharmaceutical Chemistry",
+        "short_name": "M.Pharm Pharmaceutical Chemistry",
+        "level": "Postgraduate",
+        "duration": "2 years",
+        "current_intake": {
+          "academic_year": "2026-27",
+          "seats": 9
+        }
+      },
+      {
+        "name": "Ph.D. - Pharmaceutical Sciences",
+        "short_name": "Ph.D. Pharmaceutical Sciences",
+        "level": "Doctoral",
+        "intake": "As per availability of supervisors"
+      }
+    ]
+  },
+
+  "facilities": {
+    "campus": {
+      "approximate_area": "33 acres",
+      "location": "Dhule, Maharashtra"
+    },
+
+    "classrooms": [
+      "Smart classrooms",
+      "Digital classrooms",
+      "Air-conditioned classrooms"
+    ],
+
+    "laboratories": [
+      "Computer laboratories",
+      "Language laboratories",
+      "Specialized laboratories"
+    ],
+
+    "infrastructure": [
+      "Workshops",
+      "High-speed internet",
+      "Wi-Fi",
+      "Medical facilities",
+      "Sports facilities"
+    ],
+
+    "pharmacy_specific": [
+      "Animal House",
+      "Instrument Room",
+      "Medicinal Garden",
+      "Aseptic Room",
+      "State-of-the-art Library",
+      "Machine Room"
+    ]
+  },
+
+  "library": {
+    "available": true,
+    "resources": [
+      "Physical books and resources",
+      "Digital resources",
+      "Journals",
+      "Databases",
+      "E-books",
+      "Video lectures"
+    ]
+  },
+
+  "hostel": {
+    "available": true,
+    "facilities": [
+      "Separate hostel facilities for boys",
+      "Separate hostel facilities for girls",
+      "Mess facility"
+    ],
+    "capacity": "TO_BE_VERIFIED",
+    "fees": "TO_BE_VERIFIED"
+  },
+
+  "sports": {
+    "available": true,
+    "details": "Sports facilities are available on campus.",
+    "specific_sports": "TO_BE_VERIFIED"
+  },
+
+  "student_life": {
+    "student_council": true,
+    "clubs_and_activities": true,
+    "student_achievements": true,
+    "alumni": true
+  },
+
+  "placements": {
+    "training_and_placement": true,
+    "activities": [
+      "Student training",
+      "Student internships",
+      "Student placements"
+    ],
+    "official_website_claim": "The university website states '100% job placement'.",
+    "agent_rule": "Do not present 100% placement as a guaranteed outcome. If asked, identify it as a university website claim."
+  },
+
+  "research_and_innovation": {
+    "research": true,
+    "consultancy": true,
+    "ipr_cell": true,
+    "awards_and_grants": true,
+    "entrepreneurship_development_cell": true,
+    "pharmacy_research": {
+      "research_and_startup_grants": "The 2026-27 pharmacy brochure states research and startup grants of approximately ₹1.6 crore from various funding agencies.",
+      "total_quality_publications": "235+"
+    }
+  },
+
+  "accreditation_and_recognition": {
+    "university": {
+      "type": "State-Private University"
+    },
+    "pharmacy": {
+      "naac": "A+ Grade",
+      "nba": "Diploma Program accredited by NBA"
+    }
+  },
+
+  "connectivity": {
+    "nearby_highways": [
+      "NH-6 Surat-Nagpur",
+      "NH-3 Mumbai-Agra",
+      "NH-211 Dhule-Solapur"
+    ]
+  },
+
+  "contact": {
+    "university_phone": "02562-350640",
+    "email": "sngu@svkm.ac.in",
+    "address": "Survey No. 499, Plot No. 1, Behind Gurudwara, Near Mumbai-Agra Highway, Dhule - 424001, Maharashtra, India",
+    "website": "https://www.svkmnmimsgu.ac.in/"
+  },
+
+  "school_contacts": {
+    "school_of_commerce": {
+      "phones": [
+        "9272110073",
+        "8788701642",
+        "9309905899"
+      ]
+    },
+    "school_of_technology_management_engineering": {
+      "phones": [
+        "9425685966",
+        "9764405069"
+      ]
+    },
+    "school_of_pharmacy_technology_management": {
+      "general_phones": [
+        "9158947999",
+        "8668501496"
+      ],
+      "d_pharm": [
+        "9881190690"
+      ],
+      "b_pharm_b_pharm_mba_m_pharm": [
+        "9158947999",
+        "8668501496"
+      ],
+      "cosmetic_technology": [
+        "9890699182"
+      ]
+    }
+  },
+
+  "program_features": {
+    "bba": [
+      "Interactive classes",
+      "Audio-visual learning",
+      "Projects and presentations",
+      "Case studies",
+      "Industry-oriented syllabus",
+      "Internship and research opportunities",
+      "Business and marketing analytics",
+      "Entrepreneurship"
+    ],
+
+    "bca": [
+      "Programming",
+      "Software development",
+      "Data structures",
+      "Artificial intelligence",
+      "Cloud computing",
+      "Cybersecurity",
+      "Python",
+      "Java",
+      "SQL",
+      "Web and mobile application development",
+      "Databases",
+      "Projects",
+      "Internships",
+      "Placement assistance"
+    ],
+
+    "information_technology": [
+      "State-of-the-art computing laboratories",
+      "Licensed and open-source software",
+      "Smart boards",
+      "High-speed internet",
+      "Industry and government collaborations",
+      "Value-added courses",
+      "Mentor-mentee scheme",
+      "Guest lectures",
+      "Seminars",
+      "Workshops",
+      "Placement guidance",
+      "Research assistance"
+    ]
+  },
+
+  "source_policy": {
+    "primary_source": "https://www.svkmnmimsgu.ac.in/",
+    "intake_source_priority": [
+      "Current academic-year official admission handout",
+      "Official university program page",
+      "Official university brochure",
+      "Official university approval/proforma documents"
+    ],
+    "important": "If two official sources disagree, the calling agent must not invent a resolution. It should use the current academic-year admission source where applicable or state that the figure requires verification."
+  }
+}
