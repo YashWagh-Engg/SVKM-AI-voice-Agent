@@ -68,8 +68,9 @@ PROGRAM_ALIASES = {
 
     "b.pharm + mba": "Bachelor of Pharmacy + MBA (Pharma Tech)",
     "b pharm + mba": "Bachelor of Pharmacy + MBA (Pharma Tech)",
-    "b pharm mba": "Bachelor of Pharmacy + MBA (Pharma Tech)",
-    "b.pharm mba": "Bachelor of Pharmacy + MBA (Pharma Tech)",
+    "b pharm + mba": "Bachelor of Pharmacy + MBA (Pharma Tech)",
+    "b pharm + mba": "Bachelor of Pharmacy + MBA (Pharma Tech)",
+    "b pharmacy + mba": "Bachelor of Pharmacy + MBA (Pharma Tech)",
 
     "b.pharm": "Bachelor of Pharmacy",
     "b pharm": "Bachelor of Pharmacy",
@@ -86,6 +87,8 @@ PROGRAM_ALIASES = {
 
     "m.pharm pharmaceutics": "M.Pharm - Pharmaceutics",
     "m pharm pharmaceutics": "M.Pharm - Pharmaceutics",
+    "m pharmacy pharmaceutics": "M.Pharm - Pharmaceutics",
+    
 
     "m.pharm pharmaceutical quality assurance":
         "M.Pharm - Pharmaceutical Quality Assurance",
