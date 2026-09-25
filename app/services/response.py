@@ -73,6 +73,11 @@ PROGRAM_ALIASES = {
 
     "b.pharm": "Bachelor of Pharmacy",
     "b pharm": "Bachelor of Pharmacy",
+    "b-pharm": "Bachelor of Pharmacy",
+    "b.pharmacy": "Bachelor of Pharmacy",
+    "b pharmacy": "Bachelor of Pharmacy",
+    "b-pharmacy": "Bachelor of Pharmacy",
+    "bpharm": "Bachelor of Pharmacy",
     "bachelor of pharmacy": "Bachelor of Pharmacy",
 
     "cosmetic technology": "B.Tech - Cosmetic Technology",
