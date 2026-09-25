@@ -188,7 +188,7 @@
         "duration": "5 years",
         "current_intake": {
           "academic_year": "2026-27",
-          "seats": "TO_BE_VERIFIED"
+          "seats": 	60
         }
       },
       {
@@ -198,7 +198,7 @@
         "duration": "5 years",
         "current_intake": {
           "academic_year": "2026-27",
-          "seats": "TO_BE_VERIFIED"
+          "seats": 60
         }
       },
       {
@@ -208,7 +208,7 @@
         "duration": "5 years",
         "current_intake": {
           "academic_year": "2026-27",
-          "seats": "TO_BE_VERIFIED"
+          "seats": 60
         }
       },
 
@@ -239,7 +239,7 @@
         "duration": "2 years",
         "current_intake": {
           "academic_year": "2026-27",
-          "seats": "TO_BE_VERIFIED"
+          "seats": 30
         }
       },
       {
@@ -249,7 +249,7 @@
         "duration": "2 years",
         "current_intake": {
           "academic_year": "2026-27",
-          "seats": "TO_BE_VERIFIED"
+          "seats": 30
         }
       },
       {
@@ -259,7 +259,7 @@
         "duration": "2 years",
         "current_intake": {
           "academic_year": "2026-27",
-          "seats": "TO_BE_VERIFIED"
+          "seats": 30
         }
       },
       {
@@ -269,7 +269,7 @@
         "duration": "2 years",
         "current_intake": {
           "academic_year": "2026-27",
-          "seats": "TO_BE_VERIFIED"
+          "seats": 30
         }
       }
     ],
