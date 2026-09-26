@@ -102,9 +102,8 @@ def detect_intent(message: str) -> str:
     # =====================================================
     # 3. INTAKE / SEAT QUESTIONS
     #
-    # IMPORTANT:
     # Specific programs are checked BEFORE broad
-    # Pharmacy / Commerce / Engineering categories.
+    # Pharmacy / Commerce categories.
     # =====================================================
 
     intake_keywords = [
@@ -204,64 +203,7 @@ def detect_intent(message: str) -> str:
             return "program_intake"
 
         # -------------------------------------------------
-        # 3B. B.Pharm
-        # -------------------------------------------------
-
-        bpharm_keywords = [
-            "b.pharm",
-            "b pharm",
-            "b-pharm",
-            "bpharm",
-
-            "b pharmacy",
-            "b-pharmacy",
-            "bpharmacy",
-
-            "b pharma",
-            "b-pharma",
-            "bpharma",
-
-            "बी फार्म",
-            "बी फार्मसी",
-            "बी फार्मेसी",
-            "बी फार्मा",
-
-            "be pharm",
-            "be pharmacy",
-            "be pharma",
-            "bee pharm",
-            "bee pharmacy",
-        ]
-
-        # -------------------------------------------------
-        # 3C. D.Pharm
-        # -------------------------------------------------
-
-        dpharm_keywords = [
-            "d.pharm",
-            "d pharm",
-            "d-pharm",
-            "dpharm",
-
-            "d pharmacy",
-            "d-pharmacy",
-            "dpharmacy",
-
-            "d pharma",
-            "d-pharma",
-            "dpharma",
-
-            "डी फार्म",
-            "डी फार्मसी",
-            "डी फार्मेसी",
-            "डी फार्मा",
-
-            "dee pharm",
-            "dee pharmacy",
-        ]
-
-        # -------------------------------------------------
-        # 3D. B.Pharm + MBA
+        # 3B. B.Pharm + MBA
         # -------------------------------------------------
 
         bpharm_mba_keywords = [
@@ -294,8 +236,65 @@ def detect_intent(message: str) -> str:
         if contains_any(text, bpharm_mba_keywords):
             return "pharmacy_intake"
 
+        # -------------------------------------------------
+        # 3C. B.Pharm
+        # -------------------------------------------------
+
+        bpharm_keywords = [
+            "b.pharm",
+            "b pharm",
+            "b-pharm",
+            "bpharm",
+
+            "b pharmacy",
+            "b-pharmacy",
+            "bpharmacy",
+
+            "b pharma",
+            "b-pharma",
+            "bpharma",
+
+            "बी फार्म",
+            "बी फार्मसी",
+            "बी फार्मेसी",
+            "बी फार्मा",
+
+            "be pharm",
+            "be pharmacy",
+            "be pharma",
+            "bee pharm",
+            "bee pharmacy",
+        ]
+
         if contains_any(text, bpharm_keywords):
             return "pharmacy_intake"
+
+        # -------------------------------------------------
+        # 3D. D.Pharm
+        # -------------------------------------------------
+
+        dpharm_keywords = [
+            "d.pharm",
+            "d pharm",
+            "d-pharm",
+            "dpharm",
+
+            "d pharmacy",
+            "d-pharmacy",
+            "dpharmacy",
+
+            "d pharma",
+            "d-pharma",
+            "dpharma",
+
+            "डी फार्म",
+            "डी फार्मसी",
+            "डी फार्मेसी",
+            "डी फार्मा",
+
+            "dee pharm",
+            "dee pharmacy",
+        ]
 
         if contains_any(text, dpharm_keywords):
             return "pharmacy_intake"
@@ -425,7 +424,340 @@ def detect_intent(message: str) -> str:
         return "program_duration"
 
     # =====================================================
-    # 6. PROGRAM INFORMATION
+    # 6. PHARMACY SCHOOL / PROGRAM LIST
+    #
+    # IMPORTANT:
+    # This is BEFORE generic program information.
+    # =====================================================
+
+    if contains_any(text, [
+        "pharmacy department",
+        "pharmacy school",
+        "pharmacy programs",
+        "pharmacy courses",
+        "school of pharmacy",
+        "pharmacy department information",
+
+        "फार्मसी विभाग",
+        "फार्मेसी विभाग",
+        "फार्मसीचे कार्यक्रम",
+        "फार्मेसीचे कार्यक्रम",
+        "फार्मेसी के कार्यक्रम",
+    ]):
+        return "pharmacy_programs"
+
+    # =====================================================
+    # 7. COMMERCE SCHOOL
+    # =====================================================
+
+    if contains_any(text, [
+        "school of commerce",
+        "commerce school",
+        "commerce department",
+        "commerce programs",
+        "commerce courses",
+
+        "कॉमर्स विभाग",
+        "वाणिज्य विभाग",
+        "कॉमर्सचे कार्यक्रम",
+        "वाणिज्य कार्यक्रम",
+    ]):
+        return "commerce_programs"
+
+    # =====================================================
+    # 8. ENGINEERING BRANCHES
+    # =====================================================
+
+    if contains_any(text, [
+        "engineering branches",
+        "engineering branch",
+        "which engineering branches",
+        "what engineering branches",
+        "branches available",
+        "available branches",
+        "engineering courses",
+        "engineering programs",
+
+        "इंजीनियरिंग शाखा",
+        "इंजीनियरिंग शाखाएं",
+        "इंजिनिअरिंग शाखा",
+        "इंजिनिअरिंगच्या शाखा",
+        "इंजिनिअरिंगच्या कोणत्या शाखा",
+        "इंजीनियरिंग की शाखाएं",
+    ]):
+        return "engineering_branches"
+
+    # =====================================================
+    # 9. LIBRARY
+    #
+    # MUST COME BEFORE GENERIC "tell me about" MATCHING.
+    # =====================================================
+
+    if contains_any(text, [
+        "library",
+        "libraries",
+        "books",
+        "digital library",
+        "library resources",
+
+        "ग्रंथालय",
+        "पुस्तकालय",
+        "लायब्ररी",
+        "लायब्ररीबद्दल",
+        "लायब्ररी बद्दल",
+    ]):
+        return "library"
+
+    # =====================================================
+    # 10. HOSTEL
+    # =====================================================
+
+    if contains_any(text, [
+        "hostel",
+        "hostels",
+        "accommodation",
+        "stay",
+        "hostel facility",
+        "hostel facilities",
+
+        "वसतिगृह",
+        "छात्रावास",
+        "हॉस्टेल",
+        "हॉस्टेल सुविधा",
+    ]):
+        return "hostel"
+
+    # =====================================================
+    # 11. SPORTS
+    # =====================================================
+
+    if contains_any(text, [
+        "sports",
+        "sport facility",
+        "sports facilities",
+        "playground",
+        "games",
+
+        "क्रीडा",
+        "खेळ",
+        "स्पोर्ट्स",
+        "क्रीडा सुविधा",
+    ]):
+        return "sports"
+
+    # =====================================================
+    # 12. PLACEMENTS
+    # =====================================================
+
+    if contains_any(text, [
+        "placement",
+        "placements",
+        "job placement",
+        "placement support",
+        "placement assistance",
+        "career",
+        "career support",
+
+        "नौकरी",
+        "प्लेसमेंट",
+        "रोजगार",
+        "करिअर",
+        "नोकरी",
+    ]):
+        return "placements"
+
+    # =====================================================
+    # 13. RESEARCH
+    # =====================================================
+
+    if contains_any(text, [
+        "research",
+        "research facilities",
+        "research department",
+        "innovation",
+        "research work",
+        "patent",
+        "research grant",
+
+        "संशोधन",
+        "अनुसंधान",
+        "रिसर्च",
+        "संशोधन सुविधा",
+        "पेटंट",
+    ]):
+        return "research"
+
+    # =====================================================
+    # 14. FACILITIES
+    # =====================================================
+
+    if contains_any(text, [
+        "facilities",
+        "facility",
+        "campus facilities",
+        "campus facility",
+        "what facilities",
+        "available facilities",
+
+        "सुविधाएं",
+        "सुविधा",
+        "सुविधा आहेत",
+        "सुविधा कोणत्या",
+        "कॅम्पसच्या सुविधा",
+        "कॅम्पसमध्ये कोणत्या सुविधा",
+    ]):
+        return "facilities"
+
+    # =====================================================
+    # 15. CONTACT
+    # =====================================================
+
+    if contains_any(text, [
+        "contact",
+        "contact number",
+        "phone number",
+        "phone",
+        "telephone",
+        "email",
+        "admission contact",
+        "contact details",
+
+        "फोन",
+        "मोबाइल नंबर",
+        "संपर्क",
+        "ईमेल",
+        "पत्ता आणि फोन",
+    ]):
+        return "contact"
+
+    # =====================================================
+    # 16. WEBSITE
+    # =====================================================
+
+    if contains_any(text, [
+        "website",
+        "web site",
+        "official website",
+        "college website",
+        "university website",
+        "site",
+
+        "वेबसाइट",
+        "वेब साइट",
+        "आधिकारिक वेबसाइट",
+        "कॉलेजची वेबसाइट",
+        "विद्यापीठाची वेबसाइट",
+    ]):
+        return "website"
+
+    # =====================================================
+    # 17. COLLEGE INTRODUCTION
+    # =====================================================
+
+    if contains_any(text, [
+        "tell me about the college",
+        "tell me about the university",
+        "about the college",
+        "about the university",
+        "college information",
+        "university information",
+        "college introduction",
+        "university introduction",
+        "college overview",
+        "university overview",
+
+        "कॉलेज के बारे में",
+        "विश्वविद्यालय के बारे में",
+        "महाविद्यालयाबद्दल",
+        "विद्यापीठाबद्दल",
+        "कॉलेज बद्दल",
+        "कॉलेजविषयी",
+        "विद्यापीठाविषयी",
+    ]):
+        return "college_introduction"
+
+    # =====================================================
+    # 18. LOCATION
+    # =====================================================
+
+    if contains_any(text, [
+        "where is the college",
+        "where is the university",
+        "where is college",
+        "where is university",
+        "location",
+        "located",
+        "address",
+        "where are you located",
+
+        "कहाँ है",
+        "कहां है",
+        "पता",
+        "स्थान",
+
+        "कुठे आहे",
+        "कुठे",
+        "पत्ता",
+        "ठिकाण",
+    ]):
+        return "college_location"
+
+    # =====================================================
+    # 19. SCHOOLS
+    # =====================================================
+
+    if contains_any(text, [
+        "schools",
+        "school",
+        "what schools",
+        "which schools",
+        "schools available",
+
+        "कितने स्कूल",
+        "कौन से स्कूल",
+
+        "शाळा",
+        "कोणते स्कूल",
+        "कोणत्या शाळा",
+    ]):
+        return "schools"
+
+    # =====================================================
+    # 20. GENERAL PROGRAMS
+    # =====================================================
+
+    if contains_any(text, [
+        "programs",
+        "program",
+        "courses",
+        "course",
+        "what do you offer",
+        "what programs",
+        "which programs",
+        "what courses",
+        "available programs",
+        "available courses",
+
+        "कोर्स",
+        "कोर्सेस",
+        "प्रोग्राम",
+        "प्रोग्राम्स",
+        "अभ्यासक्रम",
+        "अभ्यासक्रम कोणते",
+    ]):
+        return "programs"
+
+    # =====================================================
+    # 21. PROGRAM INFORMATION
+    #
+    # GENERIC "tell me about" IS INTENTIONALLY VERY LATE.
+    # This prevents:
+    #
+    # "Tell me about the library"
+    # "Tell me about hostel"
+    # "Tell me about placements"
+    #
+    # from becoming program_information.
     # =====================================================
 
     program_info_keywords = [
@@ -464,325 +796,6 @@ def detect_intent(message: str) -> str:
 
     if contains_any(text, program_info_keywords):
         return "program_information"
-
-    # =====================================================
-    # 7. PHARMACY SCHOOL / PROGRAM LIST
-    # =====================================================
-
-    if contains_any(text, [
-        "pharmacy department",
-        "pharmacy school",
-        "pharmacy programs",
-        "pharmacy courses",
-        "school of pharmacy",
-        "pharmacy department information",
-
-        "फार्मसी विभाग",
-        "फार्मेसी विभाग",
-        "फार्मसीचे कार्यक्रम",
-        "फार्मेसीचे कार्यक्रम",
-        "फार्मेसी के कार्यक्रम",
-    ]):
-        return "pharmacy_programs"
-
-    # =====================================================
-    # 8. COMMERCE SCHOOL
-    # =====================================================
-
-    if contains_any(text, [
-        "school of commerce",
-        "commerce school",
-        "commerce department",
-        "commerce programs",
-        "commerce courses",
-
-        "कॉमर्स विभाग",
-        "वाणिज्य विभाग",
-        "कॉमर्सचे कार्यक्रम",
-        "वाणिज्य कार्यक्रम",
-    ]):
-        return "commerce_programs"
-
-    # =====================================================
-    # 9. ENGINEERING BRANCHES
-    # =====================================================
-
-    if contains_any(text, [
-        "engineering branches",
-        "engineering branch",
-        "which engineering branches",
-        "what engineering branches",
-        "branches available",
-        "available branches",
-        "engineering courses",
-        "engineering programs",
-
-        "इंजीनियरिंग शाखा",
-        "इंजीनियरिंग शाखाएं",
-        "इंजिनिअरिंग शाखा",
-        "इंजिनिअरिंगच्या शाखा",
-        "इंजिनिअरिंगच्या कोणत्या शाखा",
-        "इंजीनियरिंग की शाखाएं",
-    ]):
-        return "engineering_branches"
-
-    # =====================================================
-    # 10. COLLEGE INTRODUCTION
-    # =====================================================
-
-    if contains_any(text, [
-        "tell me about the college",
-        "tell me about the university",
-        "about the college",
-        "about the university",
-        "college information",
-        "university information",
-        "college introduction",
-        "university introduction",
-        "college overview",
-        "university overview",
-
-        "कॉलेज के बारे में",
-        "विश्वविद्यालय के बारे में",
-        "महाविद्यालयाबद्दल",
-        "विद्यापीठाबद्दल",
-        "कॉलेज बद्दल",
-        "कॉलेजविषयी",
-        "विद्यापीठाविषयी",
-    ]):
-        return "college_introduction"
-
-    # =====================================================
-    # 11. LOCATION
-    # =====================================================
-
-    if contains_any(text, [
-        "where is the college",
-        "where is the university",
-        "where is college",
-        "where is university",
-        "location",
-        "located",
-        "address",
-        "where are you located",
-
-        "कहाँ है",
-        "कहां है",
-        "पता",
-        "स्थान",
-
-        "कुठे आहे",
-        "कुठे",
-        "पत्ता",
-        "ठिकाण",
-    ]):
-        return "college_location"
-
-    # =====================================================
-    # 12. SCHOOLS
-    # =====================================================
-
-    if contains_any(text, [
-        "schools",
-        "school",
-        "what schools",
-        "which schools",
-        "schools available",
-
-        "कितने स्कूल",
-        "कौन से स्कूल",
-
-        "शाळा",
-        "कोणते स्कूल",
-        "कोणत्या शाळा",
-    ]):
-        return "schools"
-
-    # =====================================================
-    # 13. GENERAL PROGRAMS
-    # =====================================================
-
-    if contains_any(text, [
-        "programs",
-        "program",
-        "courses",
-        "course",
-        "what do you offer",
-        "what programs",
-        "which programs",
-        "what courses",
-        "available programs",
-        "available courses",
-
-        "कोर्स",
-        "कोर्सेस",
-        "प्रोग्राम",
-        "प्रोग्राम्स",
-        "अभ्यासक्रम",
-        "अभ्यासक्रम कोणते",
-    ]):
-        return "programs"
-
-    # =====================================================
-    # 14. FACILITIES
-    # =====================================================
-
-    if contains_any(text, [
-        "facilities",
-        "facility",
-        "campus facilities",
-        "campus facility",
-        "what facilities",
-        "available facilities",
-
-        "सुविधाएं",
-        "सुविधा",
-        "सुविधा आहेत",
-        "सुविधा कोणत्या",
-        "कॅम्पसच्या सुविधा",
-        "कॅम्पसमध्ये कोणत्या सुविधा",
-    ]):
-        return "facilities"
-
-    # =====================================================
-    # 15. LIBRARY
-    # =====================================================
-
-    if contains_any(text, [
-        "library",
-        "libraries",
-        "books",
-        "digital library",
-        "library resources",
-
-        "ग्रंथालय",
-        "पुस्तकालय",
-        "लायब्ररी",
-        "लायब्ररीबद्दल",
-        "लायब्ररी बद्दल",
-    ]):
-        return "library"
-
-    # =====================================================
-    # 16. HOSTEL
-    # =====================================================
-
-    if contains_any(text, [
-        "hostel",
-        "hostels",
-        "accommodation",
-        "stay",
-        "hostel facility",
-        "hostel facilities",
-
-        "वसतिगृह",
-        "छात्रावास",
-        "हॉस्टेल",
-        "हॉस्टेल सुविधा",
-    ]):
-        return "hostel"
-
-    # =====================================================
-    # 17. SPORTS
-    # =====================================================
-
-    if contains_any(text, [
-        "sports",
-        "sport facility",
-        "sports facilities",
-        "playground",
-        "games",
-
-        "क्रीडा",
-        "खेळ",
-        "स्पोर्ट्स",
-        "क्रीडा सुविधा",
-    ]):
-        return "sports"
-
-    # =====================================================
-    # 18. PLACEMENTS
-    # =====================================================
-
-    if contains_any(text, [
-        "placement",
-        "placements",
-        "job",
-        "jobs",
-        "career",
-        "placement support",
-        "placement assistance",
-
-        "नौकरी",
-        "प्लेसमेंट",
-        "रोजगार",
-        "करिअर",
-        "नोकरी",
-    ]):
-        return "placements"
-
-    # =====================================================
-    # 19. RESEARCH
-    # =====================================================
-
-    if contains_any(text, [
-        "research",
-        "research facilities",
-        "research department",
-        "innovation",
-        "research work",
-        "patent",
-        "research grant",
-
-        "संशोधन",
-        "अनुसंधान",
-        "रिसर्च",
-        "संशोधन सुविधा",
-        "पेटंट",
-    ]):
-        return "research"
-
-    # =====================================================
-    # 20. CONTACT
-    # =====================================================
-
-    if contains_any(text, [
-        "contact",
-        "contact number",
-        "phone number",
-        "phone",
-        "telephone",
-        "email",
-        "admission contact",
-        "contact details",
-
-        "फोन",
-        "मोबाइल नंबर",
-        "संपर्क",
-        "ईमेल",
-        "पत्ता आणि फोन",
-    ]):
-        return "contact"
-
-    # =====================================================
-    # 21. WEBSITE
-    # =====================================================
-
-    if contains_any(text, [
-        "website",
-        "web site",
-        "official website",
-        "college website",
-        "university website",
-        "site",
-
-        "वेबसाइट",
-        "वेब साइट",
-        "आधिकारिक वेबसाइट",
-        "कॉलेजची वेबसाइट",
-        "विद्यापीठाची वेबसाइट",
-    ]):
-        return "website"
 
     # =====================================================
     # 22. UNKNOWN
