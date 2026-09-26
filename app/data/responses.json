@@ -1,127 +1,109 @@
 {
   "college_introduction": {
-    "en": "SVKM's NMIMS Global University, Dhule is a private university in Maharashtra offering programs across commerce, technology and engineering, pharmacy and related disciplines. The university became operational in April 2024.",
-    "mr": "SVKM चे NMIMS Global University, Dhule हे महाराष्ट्रातील एक खाजगी विद्यापीठ आहे. येथे वाणिज्य, तंत्रज्ञान आणि अभियांत्रिकी, फार्मसी तसेच संबंधित क्षेत्रांमध्ये विविध अभ्यासक्रम उपलब्ध आहेत. विद्यापीठ एप्रिल 2024 मध्ये कार्यरत झाले.",
-    "hi": "SVKM का NMIMS Global University, Dhule महाराष्ट्र का एक निजी विश्वविद्यालय है। यहां कॉमर्स, टेक्नोलॉजी और इंजीनियरिंग, फार्मेसी तथा संबंधित क्षेत्रों में विभिन्न कार्यक्रम उपलब्ध हैं। विश्वविद्यालय अप्रैल 2024 में कार्यरत हुआ।"
+    "en": "SVKM NMIMS Global University is a state-private university in Dhule, Maharashtra. The university offers programs through the School of Commerce, School of Technology, Management and Engineering, and School of Pharmacy and Technology Management.",
+    "mr": "SVKM NMIMS Global University हे धुळे, महाराष्ट्र येथे असलेले राज्य-खासगी विद्यापीठ आहे. विद्यापीठात School of Commerce, School of Technology, Management and Engineering आणि School of Pharmacy and Technology Management या शाळांद्वारे विविध कार्यक्रम उपलब्ध आहेत.",
+    "hi": "SVKM NMIMS Global University महाराष्ट्रातील धुले येथे स्थित एक राज्य-निजी विश्वविद्यालय है। विश्वविद्यालय में School of Commerce, School of Technology, Management and Engineering और School of Pharmacy and Technology Management के माध्यम से विभिन्न कार्यक्रम उपलब्ध हैं।"
   },
 
   "college_location": {
-    "en": "SVKM's NMIMS Global University is located at Survey No. 499, Plot No. 1, Behind Gurudwara, Near Mumbai-Agra Highway, Dhule, Maharashtra - 424001.",
-    "mr": "SVKM चे NMIMS Global University सर्वे नंबर 499, प्लॉट नंबर 1, गुरुद्वाराच्या मागे, मुंबई-आग्रा महामार्गाजवळ, धुळे, महाराष्ट्र - 424001 येथे स्थित आहे.",
-    "hi": "SVKM का NMIMS Global University सर्वे नंबर 499, प्लॉट नंबर 1, गुरुद्वारा के पीछे, मुंबई-आगरा हाईवे के पास, धुले, महाराष्ट्र - 424001 में स्थित है।"
+    "en": "SVKM NMIMS Global University is located at Survey No. 499, Plot No. 1, Behind Gurudwara, near the Mumbai-Agra Highway, Dhule, Maharashtra.",
+    "mr": "SVKM NMIMS Global University हे सर्वे नंबर 499, प्लॉट नंबर 1, गुरुद्वाराच्या मागे, मुंबई-आग्रा महामार्गाजवळ, धुळे, महाराष्ट्र येथे आहे.",
+    "hi": "SVKM NMIMS Global University सर्वे नंबर 499, प्लॉट नंबर 1, गुरुद्वारा के पीछे, मुंबई-आगरा हाईवे के पास, धुले, महाराष्ट्र में स्थित है।"
   },
 
   "schools": {
-    "en": "The university currently has three major schools at the Dhule campus: the School of Commerce, the School of Technology, Management and Engineering, and the School of Pharmacy and Technology Management.",
-    "mr": "धुळे कॅम्पसमध्ये सध्या तीन प्रमुख स्कूल आहेत: School of Commerce, School of Technology, Management and Engineering आणि School of Pharmacy and Technology Management.",
-    "hi": "धुले कैंपस में वर्तमान में तीन प्रमुख स्कूल हैं: School of Commerce, School of Technology, Management and Engineering और School of Pharmacy and Technology Management।"
+    "en": "The university has three main schools: School of Commerce, School of Technology, Management and Engineering, and School of Pharmacy and Technology Management.",
+    "mr": "विद्यापीठात तीन प्रमुख शाळा आहेत: School of Commerce, School of Technology, Management and Engineering आणि School of Pharmacy and Technology Management.",
+    "hi": "विश्वविद्यालय में तीन मुख्य स्कूल हैं: School of Commerce, School of Technology, Management and Engineering और School of Pharmacy and Technology Management।"
   },
 
   "programs": {
-    "en": "The university offers programs in commerce, technology and engineering, pharmacy and related areas. Programs include BBA, BCA, B.Tech, B.Tech plus MBA, MCA, M.Tech, D.Pharm, B.Pharm, B.Pharm plus MBA, B.Tech Cosmetic Technology, M.Pharm and Ph.D. programs.",
-    "mr": "विद्यापीठात वाणिज्य, तंत्रज्ञान आणि अभियांत्रिकी, फार्मसी तसेच संबंधित क्षेत्रांमध्ये अभ्यासक्रम उपलब्ध आहेत. यामध्ये BBA, BCA, B.Tech, B.Tech plus MBA, MCA, M.Tech, D.Pharm, B.Pharm, B.Pharm plus MBA, B.Tech Cosmetic Technology, M.Pharm आणि Ph.D. अभ्यासक्रमांचा समावेश आहे.",
-    "hi": "विश्वविद्यालय में कॉमर्स, टेक्नोलॉजी और इंजीनियरिंग, फार्मेसी तथा संबंधित क्षेत्रों में कार्यक्रम उपलब्ध हैं। इनमें BBA, BCA, B.Tech, B.Tech plus MBA, MCA, M.Tech, D.Pharm, B.Pharm, B.Pharm plus MBA, B.Tech Cosmetic Technology, M.Pharm और Ph.D. कार्यक्रम शामिल हैं।"
+    "en": "The university offers undergraduate, postgraduate, diploma, integrated and doctoral programs across Commerce, Technology and Engineering, and Pharmacy and Technology Management.",
+    "mr": "विद्यापीठात Commerce, Technology and Engineering आणि Pharmacy and Technology Management या क्षेत्रांमध्ये पदवी, पदव्युत्तर, डिप्लोमा, इंटिग्रेटेड आणि डॉक्टरेट कार्यक्रम उपलब्ध आहेत.",
+    "hi": "विश्वविद्यालय में Commerce, Technology and Engineering तथा Pharmacy and Technology Management के अंतर्गत स्नातक, स्नातकोत्तर, डिप्लोमा, इंटीग्रेटेड और डॉक्टरेट कार्यक्रम उपलब्ध हैं।"
   },
 
   "engineering_branches": {
-    "en": "The engineering programs include Civil Engineering, Computer Engineering, Computer Science and Engineering with Artificial Intelligence and Machine Learning, Computer Science and Engineering with Data Science, Electrical Engineering, Information Technology and Mechanical Engineering.",
-    "mr": "अभियांत्रिकीमध्ये Civil Engineering, Computer Engineering, Computer Science and Engineering with Artificial Intelligence and Machine Learning, Computer Science and Engineering with Data Science, Electrical Engineering, Information Technology आणि Mechanical Engineering हे अभ्यासक्रम उपलब्ध आहेत.",
-    "hi": "इंजीनियरिंग में Civil Engineering, Computer Engineering, Computer Science and Engineering with Artificial Intelligence and Machine Learning, Computer Science and Engineering with Data Science, Electrical Engineering, Information Technology और Mechanical Engineering कार्यक्रम उपलब्ध हैं।"
-  },
-
-  "branch_intake": {
-    "en": "Please tell me the engineering branch you are asking about, such as Computer Engineering, Data Science, AI and ML, Civil, Electrical, IT or Mechanical Engineering, and I can provide the available intake information.",
-    "mr": "कृपया तुम्ही कोणत्या अभियांत्रिकी शाखेबद्दल विचारत आहात ते सांगा, जसे Computer Engineering, Data Science, AI and ML, Civil, Electrical, IT किंवा Mechanical Engineering. त्यानुसार मी उपलब्ध intake ची माहिती देऊ शकतो.",
-    "hi": "कृपया बताएं कि आप किस इंजीनियरिंग ब्रांच के बारे में पूछ रहे हैं, जैसे Computer Engineering, Data Science, AI and ML, Civil, Electrical, IT या Mechanical Engineering। उसके अनुसार मैं उपलब्ध intake की जानकारी दे सकता हूं।"
-  },
-
-  "all_branch_intakes": {
-    "en": "For the current approved information in the knowledge base, the engineering intake includes Civil Engineering - 60 seats, Computer Engineering - 180 seats, CSE Artificial Intelligence and Machine Learning - 60 seats, CSE Data Science - 120 seats, Electrical Engineering - 60 seats, Information Technology - 60 seats, and Mechanical Engineering - 60 seats. Intake information can change by academic year, so candidates should verify the latest admission notification.",
-    "mr": "Knowledge base मधील सध्याच्या मंजूर माहितीनुसार अभियांत्रिकीमध्ये Civil Engineering - 60 जागा, Computer Engineering - 180 जागा, CSE Artificial Intelligence and Machine Learning - 60 जागा, CSE Data Science - 120 जागा, Electrical Engineering - 60 जागा, Information Technology - 60 जागा आणि Mechanical Engineering - 60 जागा आहेत. Intake प्रत्येक शैक्षणिक वर्षानुसार बदलू शकते, त्यामुळे उमेदवारांनी नवीनतम admission notification तपासावे.",
-    "hi": "Knowledge base में उपलब्ध वर्तमान स्वीकृत जानकारी के अनुसार इंजीनियरिंग में Civil Engineering - 60 सीटें, Computer Engineering - 180 सीटें, CSE Artificial Intelligence and Machine Learning - 60 सीटें, CSE Data Science - 120 सीटें, Electrical Engineering - 60 सीटें, Information Technology - 60 सीटें और Mechanical Engineering - 60 सीटें हैं। Intake हर शैक्षणिक वर्ष में बदल सकता है, इसलिए उम्मीदवारों को नवीनतम admission notification की पुष्टि करनी चाहिए।"
-  },
-
-  "bba": {
-    "en": "The BBA program is offered under the School of Commerce. The current information lists an intake of 60 seats and a duration of three years. Eligibility and admission requirements should be checked in the latest official admission notification.",
-    "mr": "BBA हा अभ्यासक्रम School of Commerce अंतर्गत उपलब्ध आहे. सध्याच्या माहितीनुसार यासाठी 60 जागा असून अभ्यासक्रमाचा कालावधी तीन वर्षे आहे. पात्रता आणि प्रवेशाच्या अटींसाठी नवीनतम अधिकृत admission notification तपासावे.",
-    "hi": "BBA कार्यक्रम School of Commerce के अंतर्गत उपलब्ध है। वर्तमान जानकारी के अनुसार इसमें 60 सीटें हैं और कार्यक्रम की अवधि तीन वर्ष है। पात्रता और प्रवेश की शर्तों के लिए नवीनतम आधिकारिक admission notification देखना चाहिए।"
-  },
-
-  "bca": {
-    "en": "The BCA program is offered under the School of Commerce. The current information lists an intake of 60 seats and a duration of three years. Mathematics is not compulsory according to the current eligibility information.",
-    "mr": "BCA हा अभ्यासक्रम School of Commerce अंतर्गत उपलब्ध आहे. सध्याच्या माहितीनुसार यासाठी 60 जागा असून अभ्यासक्रमाचा कालावधी तीन वर्षे आहे. सध्याच्या पात्रता माहितीनुसार Mathematics अनिवार्य नाही.",
-    "hi": "BCA कार्यक्रम School of Commerce के अंतर्गत उपलब्ध है। वर्तमान जानकारी के अनुसार इसमें 60 सीटें हैं और कार्यक्रम की अवधि तीन वर्ष है। वर्तमान पात्रता जानकारी के अनुसार Mathematics अनिवार्य नहीं है।"
+    "en": "The engineering programs include Civil Engineering, Computer Engineering, Computer Science and Engineering with Data Science, Computer Science and Engineering with AI and Machine Learning, Electrical Engineering, Information Technology, and Mechanical Engineering.",
+    "mr": "अभियांत्रिकी कार्यक्रमांमध्ये Civil Engineering, Computer Engineering, Computer Science and Engineering with Data Science, Computer Science and Engineering with AI and Machine Learning, Electrical Engineering, Information Technology आणि Mechanical Engineering यांचा समावेश आहे.",
+    "hi": "इंजीनियरिंग कार्यक्रमों में Civil Engineering, Computer Engineering, Computer Science and Engineering with Data Science, Computer Science and Engineering with AI and Machine Learning, Electrical Engineering, Information Technology और Mechanical Engineering शामिल हैं।"
   },
 
   "pharmacy_programs": {
-    "en": "The pharmacy programs include D.Pharm, B.Pharm, B.Pharm plus MBA, B.Tech Cosmetic Technology, M.Pharm specializations and Ph.D. programs.",
-    "mr": "फार्मसीमध्ये D.Pharm, B.Pharm, B.Pharm plus MBA, B.Tech Cosmetic Technology, M.Pharm मधील विविध specializations आणि Ph.D. अभ्यासक्रम उपलब्ध आहेत.",
-    "hi": "फार्मेसी में D.Pharm, B.Pharm, B.Pharm plus MBA, B.Tech Cosmetic Technology, M.Pharm की विभिन्न specializations और Ph.D. कार्यक्रम उपलब्ध हैं।"
+    "en": "The School of Pharmacy and Technology Management offers D.Pharm, B.Pharm, B.Pharm plus MBA in Pharma Tech, B.Tech in Cosmetic Technology, M.Pharm programs, and a Ph.D. in Pharmaceutical Sciences.",
+    "mr": "School of Pharmacy and Technology Management मध्ये D.Pharm, B.Pharm, B.Pharm plus MBA in Pharma Tech, B.Tech in Cosmetic Technology, M.Pharm कार्यक्रम आणि Pharmaceutical Sciences मधील Ph.D. उपलब्ध आहेत.",
+    "hi": "School of Pharmacy and Technology Management में D.Pharm, B.Pharm, B.Pharm plus MBA in Pharma Tech, B.Tech in Cosmetic Technology, M.Pharm कार्यक्रम और Pharmaceutical Sciences में Ph.D. उपलब्ध हैं।"
   },
 
-  "pharmacy_intake": {
-    "en": "Pharmacy intake can vary according to the academic year and the current admission notification. Please verify the latest official admission information before relying on a specific seat count.",
-    "mr": "फार्मसीचा intake शैक्षणिक वर्ष आणि नवीनतम admission notification नुसार बदलू शकतो. विशिष्ट जागांची संख्या सांगण्यापूर्वी नवीनतम अधिकृत प्रवेश माहिती तपासावी.",
-    "hi": "फार्मेसी का intake शैक्षणिक वर्ष और नवीनतम admission notification के अनुसार बदल सकता है। किसी निश्चित सीट संख्या पर भरोसा करने से पहले नवीनतम आधिकारिक प्रवेश जानकारी की पुष्टि करें।"
+  "commerce_programs": {
+    "en": "The School of Commerce offers Bachelor of Business Administration, or BBA, and Bachelor of Computer Applications, or BCA.",
+    "mr": "School of Commerce मध्ये Bachelor of Business Administration म्हणजे BBA आणि Bachelor of Computer Applications म्हणजे BCA हे कार्यक्रम उपलब्ध आहेत.",
+    "hi": "School of Commerce में Bachelor of Business Administration यानी BBA और Bachelor of Computer Applications यानी BCA कार्यक्रम उपलब्ध हैं।"
   },
 
   "facilities": {
-    "en": "The campus provides facilities such as classrooms, laboratories, internet connectivity, medical support, sports facilities and student-related facilities.",
-    "mr": "कॅम्पसमध्ये classrooms, laboratories, internet connectivity, medical support, sports facilities आणि विद्यार्थ्यांसाठी विविध सुविधा उपलब्ध आहेत.",
-    "hi": "कैंपस में classrooms, laboratories, internet connectivity, medical support, sports facilities और छात्रों के लिए विभिन्न सुविधाएं उपलब्ध हैं।"
-  },
-
-  "hostel": {
-    "en": "Hostel and accommodation facilities are available for students. For current availability, fees, room details and application information, candidates should contact the university or check the latest official hostel information.",
-    "mr": "विद्यार्थ्यांसाठी hostel आणि accommodation सुविधा उपलब्ध आहेत. सध्याची availability, fees, room details आणि application information साठी विद्यापीठाशी संपर्क साधावा किंवा नवीनतम अधिकृत hostel माहिती तपासावी.",
-    "hi": "छात्रों के लिए hostel और accommodation सुविधाएं उपलब्ध हैं। वर्तमान availability, fees, room details और application information के लिए विश्वविद्यालय से संपर्क करें या नवीनतम आधिकारिक hostel जानकारी देखें।"
+    "en": "Campus facilities include smart and digital classrooms, air-conditioned classrooms, computer and language laboratories, workshops, high-speed internet and Wi-Fi, medical facilities, and sports facilities.",
+    "mr": "कॅम्पसच्या सुविधांमध्ये स्मार्ट आणि डिजिटल वर्गखोल्या, वातानुकूलित वर्गखोल्या, संगणक आणि भाषा प्रयोगशाळा, वर्कशॉप्स, हाय-स्पीड इंटरनेट आणि Wi-Fi, वैद्यकीय सुविधा आणि क्रीडा सुविधा यांचा समावेश आहे.",
+    "hi": "कैंपस की सुविधाओं में स्मार्ट और डिजिटल कक्षाएं, वातानुकूलित कक्षाएं, कंप्यूटर और भाषा प्रयोगशालाएं, वर्कशॉप, हाई-स्पीड इंटरनेट और Wi-Fi, चिकित्सा सुविधाएं और खेल सुविधाएं शामिल हैं।"
   },
 
   "library": {
-    "en": "The university provides library facilities and academic resources for students. Students can use books, digital resources and other learning materials according to the facilities available at the campus.",
-    "mr": "विद्यापीठात विद्यार्थ्यांसाठी library सुविधा आणि शैक्षणिक resources उपलब्ध आहेत. कॅम्पसमध्ये उपलब्ध सुविधांनुसार विद्यार्थी पुस्तके, digital resources आणि इतर learning materials वापरू शकतात.",
-    "hi": "विश्वविद्यालय छात्रों के लिए library सुविधाएं और academic resources प्रदान करता है। कैंपस में उपलब्ध सुविधाओं के अनुसार छात्र books, digital resources और अन्य learning materials का उपयोग कर सकते हैं।"
+    "en": "The university has a library with physical books and resources, digital resources, journals, databases, e-books, and video lectures.",
+    "mr": "विद्यापीठाच्या ग्रंथालयात भौतिक पुस्तके आणि संसाधने, डिजिटल संसाधने, जर्नल्स, डेटाबेस, ई-बुक्स आणि व्हिडिओ लेक्चर्स उपलब्ध आहेत.",
+    "hi": "विश्वविद्यालय की लाइब्रेरी में भौतिक पुस्तकें और संसाधन, डिजिटल संसाधन, जर्नल्स, डेटाबेस, ई-बुक्स और वीडियो लेक्चर उपलब्ध हैं।"
+  },
+
+  "hostel": {
+    "en": "Hostel facilities are available with separate facilities for boys and girls and a mess facility. Hostel capacity and fees are not currently verified in the knowledge base.",
+    "mr": "वसतिगृहाची सुविधा उपलब्ध आहे. मुलांसाठी आणि मुलींसाठी स्वतंत्र वसतिगृह सुविधा तसेच मेस सुविधा आहे. वसतिगृहाची क्षमता आणि फी याबाबतची माहिती सध्या सत्यापित केलेली नाही.",
+    "hi": "हॉस्टल की सुविधा उपलब्ध है। लड़कों और लड़कियों के लिए अलग हॉस्टल सुविधाएं और मेस सुविधा है। हॉस्टल की क्षमता और फीस की जानकारी अभी सत्यापित नहीं है।"
   },
 
   "sports": {
-    "en": "Sports facilities are available for students as part of campus and student activities. For details about specific sports, grounds and current facilities, candidates should check the latest campus information.",
-    "mr": "कॅम्पस आणि विद्यार्थी उपक्रमांचा भाग म्हणून विद्यार्थ्यांसाठी sports facilities उपलब्ध आहेत. विशिष्ट खेळ, grounds आणि सध्याच्या सुविधांसाठी नवीनतम campus information तपासावी.",
-    "hi": "कैंपस और छात्र गतिविधियों के हिस्से के रूप में छात्रों के लिए sports facilities उपलब्ध हैं। विशेष खेल, grounds और वर्तमान सुविधाओं के लिए नवीनतम campus information देखनी चाहिए।"
+    "en": "Sports facilities are available on campus. Specific sports are not currently verified in the knowledge base.",
+    "mr": "कॅम्पसमध्ये क्रीडा सुविधा उपलब्ध आहेत. कोणते विशिष्ट खेळ उपलब्ध आहेत याची माहिती सध्या सत्यापित केलेली नाही.",
+    "hi": "कैंपस में खेल सुविधाएं उपलब्ध हैं। कौन-कौन से विशिष्ट खेल उपलब्ध हैं, इसकी जानकारी अभी सत्यापित नहीं है।"
   },
 
   "placements": {
-    "en": "The university provides placement and career support for students. The official website has presented a 100 percent job placement claim, but placement outcomes can vary by program, batch and student. Candidates should verify the latest placement report and program-specific information.",
-    "mr": "विद्यापीठ विद्यार्थ्यांना placement आणि career support प्रदान करते. अधिकृत वेबसाइटवर 100 टक्के job placement असा दावा करण्यात आला आहे, परंतु placement outcomes हे program, batch आणि student नुसार बदलू शकतात. उमेदवारांनी नवीनतम placement report आणि program-specific माहिती तपासावी.",
-    "hi": "विश्वविद्यालय छात्रों को placement और career support प्रदान करता है। आधिकारिक वेबसाइट पर 100 प्रतिशत job placement का दावा प्रस्तुत किया गया है, लेकिन placement outcomes program, batch और student के अनुसार अलग-अलग हो सकते हैं। उम्मीदवारों को नवीनतम placement report और program-specific जानकारी की पुष्टि करनी चाहिए।"
+    "en": "The university provides student training, internship and placement activities. The university website states a 100% job placement claim. This is a university website claim and should not be presented as a guaranteed individual placement outcome.",
+    "mr": "विद्यापीठात विद्यार्थ्यांसाठी प्रशिक्षण, इंटर्नशिप आणि प्लेसमेंट संबंधित उपक्रम आहेत. विद्यापीठाच्या वेबसाइटवर 100% job placement असा दावा नमूद आहे. हा विद्यापीठाच्या वेबसाइटवरील दावा आहे आणि तो प्रत्येक विद्यार्थ्याला प्लेसमेंटची हमी म्हणून सांगू नये.",
+    "hi": "विश्वविद्यालय में छात्रों के लिए प्रशिक्षण, इंटर्नशिप और प्लेसमेंट से संबंधित गतिविधियां हैं। विश्वविद्यालय की वेबसाइट पर 100% job placement का दावा दिया गया है। इसे प्रत्येक छात्र के लिए प्लेसमेंट की गारंटी के रूप में प्रस्तुत नहीं किया जाना चाहिए।"
   },
 
   "research": {
-    "en": "The university supports research and innovation activities across its academic areas. Research opportunities and facilities can vary by school and program.",
-    "mr": "विद्यापीठ आपल्या विविध academic areas मध्ये research आणि innovation activities ला प्रोत्साहन देते. Research opportunities आणि facilities school आणि program नुसार बदलू शकतात.",
-    "hi": "विश्वविद्यालय अपने विभिन्न academic areas में research और innovation activities को support करता है। Research opportunities और facilities school तथा program के अनुसार अलग-अलग हो सकती हैं।"
+    "en": "The university supports research and innovation through research activities, consultancy, an IPR cell, awards and grants, and an entrepreneurship development cell. Pharmacy also has research and startup grant activities.",
+    "mr": "विद्यापीठात संशोधन आणि नवोपक्रमासाठी संशोधन उपक्रम, consultancy, IPR cell, awards and grants आणि entrepreneurship development cell आहेत. फार्मसी विभागात संशोधन आणि startup grant संबंधित उपक्रम देखील आहेत.",
+    "hi": "विश्वविद्यालय में research और innovation के लिए research activities, consultancy, IPR cell, awards and grants और entrepreneurship development cell हैं। फार्मेसी में research और startup grant से संबंधित गतिविधियां भी हैं।"
   },
 
   "contact": {
-    "en": "For admission-related queries, the current contact numbers are: School of Commerce - 8788701642; School of Technology, Management and Engineering - 9425685966 and 9764405069; School of Pharmacy and Technology Management - 9158947999 and 8668501496.",
-    "mr": "Admission संबंधी माहितीसाठी सध्याचे contact numbers आहेत: School of Commerce - 8788701642; School of Technology, Management and Engineering - 9425685966 आणि 9764405069; School of Pharmacy and Technology Management - 9158947999 आणि 8668501496.",
-    "hi": "Admission से संबंधित जानकारी के लिए वर्तमान contact numbers हैं: School of Commerce - 8788701642; School of Technology, Management and Engineering - 9425685966 और 9764405069; School of Pharmacy and Technology Management - 9158947999 और 8668501496।"
+    "en": "For admissions, the School of Commerce can be contacted at 8788701642. The School of Technology, Management and Engineering can be contacted at 9425685966 or 9764405069. The School of Pharmacy and Technology Management can be contacted at 9158947999 or 8668501496.",
+    "mr": "प्रवेशासाठी School of Commerce शी 8788701642 वर, School of Technology, Management and Engineering शी 9425685966 किंवा 9764405069 वर आणि School of Pharmacy and Technology Management शी 9158947999 किंवा 8668501496 वर संपर्क साधता येतो.",
+    "hi": "प्रवेश के लिए School of Commerce से 8788701642 पर, School of Technology, Management and Engineering से 9425685966 या 9764405069 पर, और School of Pharmacy and Technology Management से 9158947999 या 8668501496 पर संपर्क किया जा सकता है।"
   },
 
   "website": {
-    "en": "The official website of SVKM's NMIMS Global University is www.svkm.ac.in. Candidates should use the official website for the latest information about admissions, programs, eligibility and notifications.",
-    "mr": "SVKM चे NMIMS Global University चे अधिकृत website www.svkm.ac.in आहे. Admissions, programs, eligibility आणि notifications संदर्भातील नवीनतम माहितीसाठी अधिकृत website वापरावी.",
-    "hi": "SVKM के NMIMS Global University की आधिकारिक website www.svkm.ac.in है। Admissions, programs, eligibility और notifications की नवीनतम जानकारी के लिए आधिकारिक website का उपयोग करें।"
+    "en": "The official website of SVKM NMIMS Global University is www.svkmnmimsgu.ac.in.",
+    "mr": "SVKM NMIMS Global University ची अधिकृत वेबसाइट www.svkmnmimsgu.ac.in आहे.",
+    "hi": "SVKM NMIMS Global University की आधिकारिक वेबसाइट www.svkmnmimsgu.ac.in है।"
   },
 
   "admission_eligibility": {
-    "en": "Admission eligibility depends on the program. For B.Tech, the current information requires HSC with English, Physics, Mathematics and one specified subject, with the applicable minimum percentage and a non-zero SNGUCET score. For BBA and BCA, the current information lists HSC with the applicable minimum percentage and a non-zero SNGUCET score. Pharmacy and postgraduate programs have separate eligibility requirements. Please check the latest official eligibility notification for the program you are interested in.",
-    "mr": "Admission eligibility हा program नुसार वेगळा असतो. B.Tech साठी सध्याच्या माहितीनुसार HSC मध्ये English, Physics, Mathematics आणि निर्दिष्ट केलेल्या विषयांपैकी एक विषय आवश्यक आहे, तसेच लागू minimum percentage आणि non-zero SNGUCET score आवश्यक आहे. BBA आणि BCA साठी HSC मधील लागू minimum percentage आणि non-zero SNGUCET score आवश्यक आहे. Pharmacy आणि postgraduate programs साठी स्वतंत्र eligibility requirements आहेत. तुम्हाला ज्या program मध्ये interest आहे त्याची नवीनतम अधिकृत eligibility notification तपासा.",
-    "hi": "Admission eligibility कार्यक्रम के अनुसार अलग होती है। B.Tech के लिए वर्तमान जानकारी के अनुसार HSC में English, Physics, Mathematics और एक निर्दिष्ट विषय आवश्यक है, साथ ही लागू minimum percentage और non-zero SNGUCET score आवश्यक है। BBA और BCA के लिए HSC में लागू minimum percentage और non-zero SNGUCET score आवश्यक है। Pharmacy और postgraduate programs के लिए अलग eligibility requirements हैं। जिस program में आपकी रुचि है उसकी नवीनतम आधिकारिक eligibility notification देखें।"
+    "en": "Eligibility depends on the program. Please tell me the specific program, such as B.Tech, B.Pharm, BBA, BCA, D.Pharm, or MCA, and I can provide the available verified eligibility information.",
+    "mr": "पात्रता कार्यक्रमानुसार बदलते. कृपया B.Tech, B.Pharm, BBA, BCA, D.Pharm किंवा MCA यापैकी कोणत्या विशिष्ट कार्यक्रमाबद्दल विचारत आहात ते सांगा.",
+    "hi": "पात्रता प्रोग्राम के अनुसार अलग होती है। कृपया बताएं कि आप B.Tech, B.Pharm, BBA, BCA, D.Pharm या MCA में से किस प्रोग्राम के बारे में पूछ रहे हैं।"
+  },
+
+  "clarify_program": {
+    "en": "Please tell me the specific program you mean, such as B.Pharm, D.Pharm, B.Pharm plus MBA, B.Tech Cosmetic Technology, BBA, BCA, or Computer Engineering.",
+    "mr": "कृपया तुम्ही कोणत्या विशिष्ट कार्यक्रमाबद्दल विचारत आहात ते सांगा, जसे B.Pharm, D.Pharm, B.Pharm plus MBA, B.Tech Cosmetic Technology, BBA, BCA किंवा Computer Engineering.",
+    "hi": "कृपया बताएं कि आप किस विशेष प्रोग्राम की बात कर रहे हैं, जैसे B.Pharm, D.Pharm, B.Pharm plus MBA, B.Tech Cosmetic Technology, BBA, BCA या Computer Engineering।"
   },
 
   "unknown": {
-    "en": "Sorry, I don't have information about that. You can ask me about the university, courses, branches, facilities, hostel, library, placements, eligibility or contact information.",
-    "mr": "क्षमस्व, माझ्याकडे या प्रश्नाबद्दल माहिती उपलब्ध नाही. आपण विद्यापीठ, अभ्यासक्रम, शाखा, सुविधा, वसतिगृह, ग्रंथालय, प्लेसमेंट, पात्रता किंवा संपर्काबद्दल विचारू शकता.",
-    "hi": "क्षमा कीजिए, मेरे पास इस प्रश्न के बारे में जानकारी उपलब्ध नहीं है। आप विश्वविद्यालय, पाठ्यक्रम, शाखाओं, सुविधाओं, छात्रावास, पुस्तकालय, प्लेसमेंट, पात्रता या संपर्क जानकारी के बारे में पूछ सकते हैं।"
+    "en": "I could not verify that information from the available university information. You can ask me about programs, intake, eligibility, duration, branches, facilities, library, hostel, sports, placements, research, or contact information.",
+    "mr": "उपलब्ध विद्यापीठाच्या माहितीतून मला त्या प्रश्नाचे सत्यापित उत्तर मिळाले नाही. तुम्ही कार्यक्रम, intake, पात्रता, कालावधी, शाखा, सुविधा, ग्रंथालय, वसतिगृह, क्रीडा, प्लेसमेंट, संशोधन किंवा संपर्काबद्दल विचारू शकता.",
+    "hi": "उपलब्ध विश्वविद्यालय की जानकारी से मैं उस प्रश्न का सत्यापित उत्तर नहीं दे सका। आप प्रोग्राम, intake, पात्रता, अवधि, शाखाओं, सुविधाओं, लाइब्रेरी, हॉस्टल, खेल, प्लेसमेंट, रिसर्च या संपर्क के बारे में पूछ सकते हैं।"
   }
 }
